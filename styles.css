@@ -1,0 +1,33 @@
+ul {
+    list-style-type: none;
+  }
+  #navbar {
+    height: 10%vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: tan;
+    width: 100%;
+    color: white;
+  }
+  #welcome-section {
+    padding-top: 85px;
+    width: 100vh;
+    height: 100vh;
+    background-color: lightgreen;
+  }
+  #projects {
+    width: 100vh;
+    height: 100vh;
+    background-color: beige;
+  }
+  #Contact {
+    width: 100vh;
+    height: 100vh;
+    background-color: yellow;
+  }
+    @media only screen and (max-width: 400px) {
+    body {
+      background-color: lightblue;
+    }
+  }
